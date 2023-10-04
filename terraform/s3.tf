@@ -3,6 +3,6 @@ resource "aws_s3_bucket" "example" {
 
   tags = {
     Name        = "Marcin test bucket"
-    Environment = "Dev"
+    Environment = "Test"
   }
 }
