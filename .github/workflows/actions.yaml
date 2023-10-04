@@ -7,7 +7,7 @@ on:
 
 jobs:
   tf_fmt:
-    name: Deploy Site
+    name: Terraform Run
     runs-on: ubuntu-latest
     steps:
 
