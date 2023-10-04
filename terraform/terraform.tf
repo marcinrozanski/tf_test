@@ -1,5 +1,7 @@
 terraform {
   backend "s3" {
-    key = "terraform-aws-gh/terraform.tfstate"
+    bucket = "terraform-aws-gh"
+    key    = "terraform.tfstate"
+    region = "eu-west-2"
   }
 }
